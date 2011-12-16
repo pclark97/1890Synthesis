@@ -1,0 +1,65 @@
+Description: Revision of (Lots of 1900 data)
+Samples selected:
+      1900 5% sample                                    regular
+File Type:                    hierarchical
+Case Selection:               No
+  Variable               Columns        Len    1900   
+  RECTYPE            H   1              1      X 
+  YEAR               H   2-5            4      X 
+  DATANUM            H   6-7            2      X 
+  SERIAL             H   8-15           8      X 
+  HHWT               H  16-21           6      X 
+  STATEICP           H  22-23           2      X 
+  STATEFIP           H  24-25           2      X 
+  COUNTY             H  26-29           4      X 
+  URBAN              H  30              1      X 
+  GQ                 H  31              1      X 
+  RECTYPEP           P   1              1      X 
+  YEARP              P   2-5            4      X 
+  DATANUMP           P   6-7            2      X 
+  SERIALP            P   8-15           8      X 
+  PERNUM             P  16-19           4      X 
+  PERWT              P  20-25           6      X 
+  RELATE             P  26-27           2      X 
+  RELATED            P  28-31           4      X 
+  AGE                P  32-34           3      X 
+  SEX                P  35              1      X 
+  MARST              P  36              1      X 
+  AGEMONTH           P  37-38           2      X 
+  BIRTHMO            P  39-40           2      X 
+  DURMARR            P  41-42           2      X 
+  CHBORN             P  43-44           2      X 
+  CHSURV             P  45-46           2      X 
+  RACE               P  47              1      X 
+  RACED              P  48-50           3      X 
+  BPL                P  51-53           3      X 
+  BPLD               P  54-58           5      X 
+  MBPL               P  59-61           3      X 
+  MBPLD              P  62-66           5      X 
+  FBPL               P  67-69           3      X 
+  FBPLD              P  70-74           5      X 
+  NATIVITY           P  75              1      X 
+  CITIZEN            P  76              1      X 
+  YRIMMIG            P  77-80           4      X 
+  YRSUSA1            P  81-82           2      X 
+  YRSUSA2            P  83              1      X 
+  SPEAKENG           P  84              1      X 
+  HISPAND            P  85-87           3      X 
+  SPANNAME           P  88              1      X 
+  HISPRULE           P  89              1      X 
+  RACESING           P  90              1      X 
+  RACESINGD          P  91-92           2      X 
+  SCHOOL             P  93              1      X 
+  SCHLMNTH           P  94-95           2      X 
+  LIT                P  96              1      X 
+  LABFORCE           P  97              1      X 
+  OCC                P  98-100          3      X 
+  QTRUNEMP           P 101              1      X 
+  MOUNEMP            P 102-103          2      X 
+  OCCSCORE           P 104-105          2      X 
+  SEI                P 106-107          2      X 
+
+Variable Availability Key:
+All Years X - available in this sample
+All Years . - not available in this sample
+

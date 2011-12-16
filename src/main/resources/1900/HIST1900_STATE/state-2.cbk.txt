@@ -1,0 +1,124 @@
+----------------------------------------------------------------------------
+**** NHGIS Codebook for Extract pclark@umn.edu-17 ****
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Data Dictionary For Selected Tables
+----------------------------------------------------------------------------
+
+Dataset:  1900 - US, State, and County
+File:     HIST1900_CNTY
+Table:    Nativity by Sex (NT4)
+Universe: Population
+---- Record Layout ----
+YEAR:     Dataset year
+GISJOIN:  GIS join match code
+STATE:    State Name
+STATEA:   State Code
+V0000001: NT4 (HIST1900_CNTY): Native-born, Male 
+V0000002: NT4 (HIST1900_CNTY): Native-born, Female 
+V0000003: NT4 (HIST1900_CNTY): Foreign-born, Male 
+V0000004: NT4 (HIST1900_CNTY): Foreign-born, Female 
+
+Dataset:  1900 - US, State, and County
+File:     HIST1900_CNTY
+Table:    Sex (NT62)
+Universe: Population
+---- Record Layout ----
+YEAR:     Dataset year
+GISJOIN:  GIS join match code
+STATE:    State Name
+STATEA:   State Code
+V0010001: NT62 (HIST1900_CNTY): Male 
+V0010002: NT62 (HIST1900_CNTY): Female 
+
+Dataset:  1900 - US, State, and County
+File:     HIST1900_OCC
+Table:    Total Population 10 Years of Age and Over by Occupation by Sex (NT3)
+Universe: Employed Population 10 Years of Age and Over
+---- Record Layout ----
+YEAR:     Dataset year
+GISJOIN:  GIS join match code
+STATE:    State Name
+STATEA:   State Code
+V0020001: NT3 (HIST1900_OCC): Agricultural pursuits, Male 
+V0020002: NT3 (HIST1900_OCC): Agricultural pursuits, Female 
+V0020003: NT3 (HIST1900_OCC): Professional services, Male 
+V0020004: NT3 (HIST1900_OCC): Professional services, Female 
+V0020005: NT3 (HIST1900_OCC): Domestic and personal services, Male 
+V0020006: NT3 (HIST1900_OCC): Domestic and personal services, Female 
+V0020007: NT3 (HIST1900_OCC): Trade and transportation, Male 
+V0020008: NT3 (HIST1900_OCC): Trade and transportation, Female 
+V0020009: NT3 (HIST1900_OCC): Manufacturing and mechanical pursuits, Male 
+V0020010: NT3 (HIST1900_OCC): Manufacturing and mechanical pursuits, Female 
+
+Dataset:  1900 - US, State, and County
+File:     HIST1900_CNTY
+Table:    Illiterate Population 10 Years of Age and Over by Race/Nativity (NT16)
+Universe: Illiterate Population 10 Years of Age and Over
+---- Record Layout ----
+YEAR:     Dataset year
+GISJOIN:  GIS join match code
+STATE:    State Name
+STATEA:   State Code
+V0030001: NT16 (HIST1900_CNTY): White: Native-born of native parentage 
+V0030002: NT16 (HIST1900_CNTY): White: Native-born of foreign parentage 
+V0030003: NT16 (HIST1900_CNTY): White: Foreign-born 
+V0030004: NT16 (HIST1900_CNTY): Negro 
+V0030005: NT16 (HIST1900_CNTY): Other colored 
+
+Dataset:  1900 - US, State, and County
+File:     HIST1900_CNTY
+Table:    Total Population (NT1)
+Universe: Population
+---- Record Layout ----
+YEAR:     Dataset year
+GISJOIN:  GIS join match code
+STATE:    State Name
+STATEA:   State Code
+V0040001: NT1 (HIST1900_CNTY): Total 
+
+Dataset:  1900 - US, State, and County
+File:     HIST1900_CNTY
+Table:    Total Population (NT20)
+Universe: Population
+---- Record Layout ----
+YEAR:     Dataset year
+GISJOIN:  GIS join match code
+STATE:    State Name
+STATEA:   State Code
+V0050001: NT20 (HIST1900_CNTY): Total 
+
+
+
+-----------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+-----------------------------------------------------------------------------
+
+All persons are granted a limited license to use this documentation and 
+the accompanying data, subject to the following condition:
+
+* Publications and research reports based on the database must cite it 
+  appropriately. The citation should include the following:
+
+	Minnesota Population Center.  National Historical Geographic 
+	Information System: Pre-release Version 0.1. Minneapolis, MN: 
+	University of Minnesota 2004.
+
+* If possible, citations should also include the URL for the NHGIS 
+  site: http://www.nhgis.org
+
+In addition, we request that users send us a copy of any publications, research 
+reports, or educational material making use of the data or documentation. 
+Printed matter should be sent to:
+
+NHGIS
+
+Minnesota Population Center
+University of Minnesota
+50 Willey Hall
+225 19th Ave S
+Minneapolis, MN 55455
+
+
+Send all electronic material to mail to: nhgis@pop.umn.edu

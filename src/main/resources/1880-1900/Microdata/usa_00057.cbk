@@ -1,0 +1,72 @@
+Description: Revision of #54, adding 10% 1880 to the 5% 1900 sample
+Samples selected:
+      1880 10% sample\n            Note: 
+            Density of the full data file:  10.0%
+            Density of your extract: 10.0%
+
+      1900 5% sample (May 2011 revision)\n            Note: 
+            Density of the full data file:  5.0%
+            Density of your extract: 5.0%
+
+File Type:                    hierarchical
+Case Selection:               No
+  Variable               Columns        Len    1880    1900   
+  RECTYPE            H   1              1      X       X 
+  YEAR               H   2-5            4      X       X 
+  DATANUM            H   6-7            2      X       X 
+  SERIAL             H   8-15           8      X       X 
+  HHWT               H  16-25          10      X       X 
+  STATEICP           H  26-27           2      X       X 
+  STATEFIP           H  28-29           2      X       X 
+  COUNTY             H  30-33           4      X       X 
+  URBAN              H  34              1      X       X 
+  GQ                 H  35              1      X       X 
+  RECTYPEP           P   1              1      X       X 
+  YEARP              P   2-5            4      X       X 
+  DATANUMP           P   6-7            2      X       X 
+  SERIALP            P   8-15           8      X       X 
+  PERNUM             P  16-19           4      X       X 
+  PERWT              P  20-29          10      X       X 
+  RELATE             P  30-31           2      X       X 
+  RELATED            P  32-35           4      X       X 
+  AGE                P  36-38           3      X       X 
+  SEX                P  39              1      X       X 
+  MARST              P  40              1      X       X 
+  AGEMONTH           P  41-42           2      X       X 
+  BIRTHMO            P  43-44           2      X       X 
+  DURMARR            P  45-46           2      .       X 
+  CHBORN             P  47-48           2      .       X 
+  CHSURV             P  49-50           2      .       X 
+  RACE               P  51              1      X       X 
+  RACED              P  52-54           3      X       X 
+  BPL                P  55-57           3      X       X 
+  BPLD               P  58-62           5      X       X 
+  MBPL               P  63-65           3      X       X 
+  MBPLD              P  66-70           5      X       X 
+  FBPL               P  71-73           3      X       X 
+  FBPLD              P  74-78           5      X       X 
+  NATIVITY           P  79              1      X       X 
+  CITIZEN            P  80              1      .       X 
+  YRIMMIG            P  81-84           4      .       X 
+  YRSUSA1            P  85-86           2      .       X 
+  YRSUSA2            P  87              1      .       X 
+  SPEAKENG           P  88              1      .       X 
+  HISPAND            P  89-91           3      X       X 
+  SPANNAME           P  92              1      X       X 
+  HISPRULE           P  93              1      X       X 
+  RACESING           P  94              1      X       X 
+  RACESINGD          P  95-96           2      X       X 
+  SCHOOL             P  97              1      X       X 
+  SCHLMNTH           P  98-99           2      .       X 
+  LIT                P 100              1      X       X 
+  LABFORCE           P 101              1      X       X 
+  OCC                P 102-104          3      X       X 
+  QTRUNEMP           P 105              1      X       X 
+  MOUNEMP            P 106-107          2      X       X 
+  OCCSCORE           P 108-109          2      X       X 
+  SEI                P 110-111          2      X       X 
+
+Variable Availability Key:
+All Years X - available in this sample
+All Years . - not available in this sample
+

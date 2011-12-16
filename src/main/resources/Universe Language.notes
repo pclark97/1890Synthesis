@@ -1,0 +1,5 @@
+expr ::= term {"and" term | "or" term}
+term ::= varname operator value | varname "in" intlist | "(" expr ")"
+operator ::= "<" | "<=" | "=" | ">=" | ">" 
+value ::= integer
+intlist ::= "[" integer {"," integer} "]"

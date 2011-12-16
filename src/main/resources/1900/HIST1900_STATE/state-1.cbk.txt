@@ -1,0 +1,67 @@
+----------------------------------------------------------------------------
+**** NHGIS Codebook for Extract pclark@umn.edu-16 ****
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Data Dictionary For Selected Tables
+----------------------------------------------------------------------------
+
+Dataset:  1900 - US, State, and County
+File:     HIST1900_CNTY
+Table:    Total Population (NT1)
+Universe: Population
+---- Record Layout ----
+YEAR:     Dataset year
+GISJOIN:  GIS join match code
+STATE:    State Name
+STATEA:   State Code
+V0000001: NT1 (HIST1900_CNTY): Total 
+
+Dataset:  1900 - US, State, and County
+File:     HIST1900_CNTY
+Table:    Illiterate Population 10 Years of Age and Over by Race/Nativity (NT16)
+Universe: Illiterate Population 10 Years of Age and Over
+---- Record Layout ----
+YEAR:     Dataset year
+GISJOIN:  GIS join match code
+STATE:    State Name
+STATEA:   State Code
+V0010001: NT16 (HIST1900_CNTY): White: Native-born of native parentage 
+V0010002: NT16 (HIST1900_CNTY): White: Native-born of foreign parentage 
+V0010003: NT16 (HIST1900_CNTY): White: Foreign-born 
+V0010004: NT16 (HIST1900_CNTY): Negro 
+V0010005: NT16 (HIST1900_CNTY): Other colored 
+
+
+
+-----------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+-----------------------------------------------------------------------------
+
+All persons are granted a limited license to use this documentation and 
+the accompanying data, subject to the following condition:
+
+* Publications and research reports based on the database must cite it 
+  appropriately. The citation should include the following:
+
+	Minnesota Population Center.  National Historical Geographic 
+	Information System: Pre-release Version 0.1. Minneapolis, MN: 
+	University of Minnesota 2004.
+
+* If possible, citations should also include the URL for the NHGIS 
+  site: http://www.nhgis.org
+
+In addition, we request that users send us a copy of any publications, research 
+reports, or educational material making use of the data or documentation. 
+Printed matter should be sent to:
+
+NHGIS
+
+Minnesota Population Center
+University of Minnesota
+50 Willey Hall
+225 19th Ave S
+Minneapolis, MN 55455
+
+
+Send all electronic material to mail to: nhgis@pop.umn.edu

@@ -1,0 +1,46 @@
+Pete's Plan B To-do list:
+
+1. Read in all of ICPSR file for 1900
+1a. State
+1b. County
+
+2. Read in all of ICPSR file for 1890
+2a. State
+2b. County
+
+3. Figure out universe functions for each variable in 1900
+3. Figure out universe functions for each variable in 1890
+
+3. Read in microdata for 1900 and 1880 - which is a better fit for the 1890 tables? Suggest using 1900, but could go either way.
+
+4. Read in a household at a time, and update matched tables a household at a time
+
+4. Sample for Alabama to match all tables in 1900
+
+Other optimizations:
+1. Compute deltas for a household at a time and cache them with the household, don't compute them for each person in the household every time.
+2. How to deal with counties?
+3. Clarify the distance metric (done).
+
+Status as of 7/31/11:
+Distance metric looks good (finally).
+Need to change the substitution code to run until we've either got a perfect fit or every substitution makes things worse. (done)
+Need to think about matching against both county and state-level aggregate stats.
+Consider adding households in the non-substitution phase until we've matched the total population count, even if that blows through some of the other aggregates. (done)
+
+Status as of 8/15/11:
+Need to think about matching against both county and state-level aggregate stats. (Do we care?)
+Need to think about running the whole country.
+1900 appears to be in good shape, need to load up the 1890 aggregate stats as well.
+
+
+Some SBT notes:
+ set scalacOptions += "-optimize"
+ show scalac-options
+
+Status as of 10/4/11
+Discussed with Ruggles. Likes general approach.
+Need to adjust so that the number of initial households donated from 1880 and 1900 is the same.
+Think about managing the 1890 constructed file as an array of counts for each donor, rather than an array pointing to each donor. Specifically, if household ID 1 shows up 10 times, track that as (1 -> 10) rather than as (1 1 1 1 1 1 1 1 1 1 1). This should also run faster.
+Need to think about outputting a file with no duplicates and with weights adjusted appropriately, so that we know how many actual cases there are, but reweighted to match the number of times the household appears in the 1890 set.
+Need to test - pull in ICPSR file S01 (which is state-only) in addition to state/county tabulations.
