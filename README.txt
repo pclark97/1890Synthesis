@@ -14,3 +14,4 @@ The code uses the scala parallel collections, so more cores means faster runtime
 
 The main class is pclark.data.Tabulator.
 
+My master's thesis, describing what this code does and why it's interesting, is in the docs folder.
